@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Zeper</string>
+
+    <!-- Top App Bar -->
+    <string name="title_video">Video</string>
+    <string name="title_music">Music</string>
+    <string name="title_games">Games</string>
+    <string name="title_zeper">ZEPER</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_videos">Videos</string>
+    <string name="nav_music">Music</string>
+    <string name="nav_games">Games</string>
+
+    <!-- Category Chips -->
+    <string name="category_all_videos">All Videos</string>
+    <string name="category_manage_scan_list">Manage scan list</string>
+    <string name="category_privacy">Privacy</string>
+    <string name="category_favorites">Favorites</string>
+    <string name="category_recent">Recent</string>
+    <string name="category_all_files">All Files</string>
+
+    <!-- Sections -->
+    <string name="section_history">History</string>
+    <string name="section_see_all">See All</string>
+    <string name="section_folders">%d FOLDERS</string>
+    <string name="section_recent_added">Recent Added</string>
+    <string name="section_downloads">DOWNLOADS</string>
+
+    <!-- Menu Items -->
+    <string name="menu_settings">Settings</string>
+    <string name="menu_themes">Themes</string>
+    <string name="menu_downloader">Downloader</string>
+    <string name="menu_sort_name">Sort by Name</string>
+    <string name="menu_sort_size">Sort by Size</string>
+    <string name="menu_sort_date">Sort by Date</string>
+    <string name="menu_about">About</string>
+    <string name="menu_hide_folder">Hide Folder</string>
+    <string name="menu_lock_pin">Lock with PIN</string>
+
+    <!-- Actions -->
+    <string name="action_search">Search</string>
+    <string name="action_voice_search">Voice Search</string>
+    <string name="action_switch_view">Switch View</string>
+    <string name="action_more_options">More Options</string>
+    <string name="action_refresh">Refreshing Library…</string>
+
+    <!-- Folder Item -->
+    <string name="folder_video_count">%d videos</string>
+    <string name="folder_videos_added">%d videos added</string>
+
+    <!-- Privacy -->
+    <string name="privacy_set_pin">Set PIN</string>
+    <string name="privacy_enter_pin">Enter PIN to access</string>
+    <string name="privacy_new_pin">Enter New 4-Digit PIN</string>
+    <string name="privacy_wrong_pin">Wrong PIN</string>
+    <string name="privacy_secure_prompt">Secure your videos with a PIN</string>
+    <string name="privacy_empty">Privacy Folder is empty</string>
+    <string name="privacy_locked_videos">LOCKED VIDEOS</string>
+
+    <!-- Search -->
+    <string name="search_placeholder">Search videos…</string>
+    <string name="search_voice_prompt">Search videos…</string>
+    <string name="voice_not_supported">Voice search not supported</string>
+
+    <!-- Language -->
+    <string name="settings_language">Language</string>
+    <string name="settings_manage_scan_list">Manage scan list</string>
+    <string name="lang_default">Default (System Language)</string>
+    <string name="lang_english">English (English)</string>
+    <string name="lang_bengali">Bengali (Bengali)</string>
+    <string name="select_language">Select Language</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Online Search -->
+    <string name="category_online_search">Internet</string>
+    <string name="section_online_search">Internet</string>
+    <string name="menu_online_search">Internet</string>
+
+    <!-- Online Search Tabs -->
+    <string name="tab_search">Search</string>
+    <string name="tab_youtube">YouTube</string>
+    <string name="tab_music">Music</string>
+    <string name="tab_more">More</string>
+</resources>

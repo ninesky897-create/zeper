@@ -1,0 +1,1 @@
+adb push "C:\path\to\your\video.mp4" /sdcard/Download/

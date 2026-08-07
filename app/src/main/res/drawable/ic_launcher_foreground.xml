@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- এখানে আপনার দেওয়া ছবিটি লোড হওয়ার কথা। যেহেতু ছবিটি এখনও নেই, তাই আমি ব্যাকআপ লোগো সেট করছি -->
+    <item
+        android:drawable="@drawable/zeper_rowend_light_logo"
+        android:gravity="center"
+        android:width="72dp"
+        android:height="72dp" />
+</layer-list>

@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">জেপার</string>
+
+    <!-- Top App Bar -->
+    <string name="title_video">ভিডিও</string>
+    <string name="title_music">সঙ্গীত</string>
+    <string name="title_games">গেমস</string>
+    <string name="title_zeper">জেপার</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_videos">ভিডিও</string>
+    <string name="nav_music">সঙ্গীত</string>
+    <string name="nav_games">গেমস</string>
+
+    <!-- Category Chips -->
+    <string name="category_all_videos">সব ভিডিও</string>
+    <string name="category_manage_scan_list">স্ক্যান তালিকা পরিচালনা</string>
+    <string name="category_privacy">গোপনীয়তা</string>
+    <string name="category_favorites">প্রিয়</string>
+    <string name="category_recent">সাম্প্রতিক</string>
+    <string name="category_all_files">সব ফাইল</string>
+
+    <!-- Sections -->
+    <string name="section_history">ইতিহাস</string>
+    <string name="section_see_all">সব দেখুন</string>
+    <string name="section_folders">%d ফোল্ডার</string>
+    <string name="section_recent_added">সাম্প্রতিক যোগ করা</string>
+    <string name="section_online_search">অনলাইন অনুসন্ধান</string>
+
+    <!-- Menu Items -->
+    <string name="menu_settings">সেটিংস</string>
+    <string name="menu_themes">থিম</string>
+    <string name="menu_online_search">অনলাইন অনুসন্ধান</string>
+    <string name="menu_sort_name">নাম অনুসারে সাজান</string>
+    <string name="menu_sort_size">আকার অনুসারে সাজান</string>
+    <string name="menu_sort_date">তারিখ অনুসারে সাজান</string>
+    <string name="menu_about">সম্পর্কে</string>
+    <string name="menu_hide_folder">ফোল্ডার লুকান</string>
+    <string name="menu_lock_pin">পিন দিয়ে লক করুন</string>
+
+    <!-- Actions -->
+    <string name="action_search">অনুসন্ধান</string>
+    <string name="action_voice_search">ভয়েস অনুসন্ধান</string>
+    <string name="action_switch_view">ভিউ পরিবর্তন করুন</string>
+    <string name="action_more_options">আরও অপশন</string>
+    <string name="action_refresh">লাইব্রেরি রিফ্রেশ করা হচ্ছে…</string>
+
+    <!-- Folder Item -->
+    <string name="folder_video_count">%d ভিডিও</string>
+    <string name="folder_videos_added">%d ভিডিও যোগ করা হয়েছে</string>
+
+    <!-- Privacy -->
+    <string name="privacy_set_pin">পিন সেট করুন</string>
+    <string name="privacy_enter_pin">প্রবেশ করতে পিন দিন</string>
+    <string name="privacy_new_pin">নতুন ৪-ডিজিটের পিন দিন</string>
+    <string name="privacy_wrong_pin">ভুল পিন</string>
+    <string name="privacy_secure_prompt">পিন দিয়ে আপনার ভিডিওগুলো সুরক্ষিত করুন</string>
+    <string name="privacy_empty">প্রাইভেসি ফোল্ডার খালি</string>
+    <string name="privacy_locked_videos">লক করা ভিডিও</string>
+
+    <!-- Search -->
+    <string name="search_placeholder">ভিডিও খুঁজুন…</string>
+    <string name="search_voice_prompt">ভিডিও খুঁজুন…</string>
+    <string name="voice_not_supported">ভয়েস অনুসন্ধান সমর্থিত নয়</string>
+
+    <!-- Language -->
+    <string name="settings_language">ভাষা (Language)</string>
+    <string name="settings_manage_scan_list">স্ক্যান তালিকা পরিচালনা</string>
+    <string name="lang_default">ডিফল্ট (ফোনের ভাষা)</string>
+    <string name="lang_english">ইংরেজি (English)</string>
+    <string name="lang_bengali">বাংলা (Bengali)</string>
+    <string name="select_language">ভাষা নির্বাচন করুন</string>
+    <string name="cancel">বাতিল</string>
+
+    <!-- Online Search Tabs -->
+    <string name="tab_search">অনুসন্ধান</string>
+    <string name="tab_youtube">ইউটিউব</string>
+    <string name="tab_music">সঙ্গীত</string>
+    <string name="tab_more">আরও</string>
+</resources>
