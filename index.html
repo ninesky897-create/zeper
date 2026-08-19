@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeper - Ultimate Video Player & Downloader</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #00D1FF;
+            --bg-color: #0A0A0B;
+            --card-bg: #1A1A1E;
+            --text-color: #FFFFFF;
+            --accent-color: #FFD600;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Navbar */
+        nav {
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 24px;
+            font-weight: 800;
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .logo i {
+            font-size: 32px;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 100px 0;
+            text-align: center;
+            background: radial-gradient(circle at center, rgba(0, 209, 255, 0.1) 0%, transparent 70%);
+        }
+
+        .hero h1 {
+            font-size: 56px;
+            font-weight: 900;
+            margin-bottom: 20px;
+            background: linear-gradient(to right, #00D1FF, #00FF94);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #AAA;
+            max-width: 700px;
+            margin: 0 auto 40px;
+        }
+
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 15px;
+            background-color: var(--primary-color);
+            color: #000;
+            padding: 18px 40px;
+            border-radius: 50px;
+            font-size: 20px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 10px 30px rgba(0, 209, 255, 0.3);
+        }
+
+        .download-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 209, 255, 0.5);
+        }
+
+        /* Features */
+        .features {
+            padding: 80px 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .feature-card {
+            background-color: var(--card-bg);
+            padding: 40px;
+            border-radius: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: border-color 0.3s;
+        }
+
+        .feature-card:hover {
+            border-color: var(--primary-color);
+        }
+
+        .feature-card i {
+            font-size: 40px;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+
+        .feature-card h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .feature-card p {
+            color: #888;
+        }
+
+        /* App Preview (Mockup) */
+        .preview {
+            margin: 50px 0;
+            text-align: center;
+        }
+
+        .mockup {
+            width: 300px;
+            height: 600px;
+            background: #111;
+            border: 8px solid #333;
+            border-radius: 40px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 50px 100px rgba(0,0,0,0.5);
+        }
+
+        .mockup-inner {
+            padding: 20px;
+            text-align: left;
+        }
+
+        .mockup-header {
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .mockup-card {
+            background: #222;
+            height: 150px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+
+        /* Footer */
+        footer {
+            padding: 60px 0;
+            text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 36px; }
+            .hero p { font-size: 16px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <nav>
+            <a href="#" class="logo">
+                <i class="fas fa-play-circle"></i> ZEPER
+            </a>
+            <div class="nav-links">
+                <a href="https://github.com/ninesky897-create/zeper" style="color: #888; text-decoration: none;"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </nav>
+
+        <section class="hero">
+            <h1>Zeper Player</h1>
+            <p>The most advanced Android video player with built-in batch downloader for all your favorite social media platforms.</p>
+
+            <!-- DOWNLOAD BUTTON -->
+            <a href="https://github.com/ninesky897-create/zeper/releases/download/latest/zeper.apk" class="download-btn">
+                <i class="fab fa-android"></i> Download APK v0.3.0
+            </a>
+
+            <p style="margin-top: 20px; font-size: 14px;">Free • Secure • No Ads</p>
+        </section>
+
+        <div class="features">
+            <div class="feature-card">
+                <i class="fas fa-bolt"></i>
+                <h3>Fast Batch Download</h3>
+                <p>Select multiple videos at once and download them in the background with high speed.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-file-video"></i>
+                <h3>All-in-One Player</h3>
+                <p>Support for all video formats (MKV, MP4, AVI) and music playback with background support.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-shield-halved"></i>
+                <h3>Private Vault</h3>
+                <p>Hide your sensitive videos and music in a secure, password-protected vault.</p>
+            </div>
+        </div>
+
+        <section class="preview">
+            <h2>Experience the Power</h2>
+            <div style="margin-top: 40px;">
+                <div class="mockup">
+                    <div class="mockup-inner">
+                        <div class="mockup-header">
+                            <div style="width: 20px; height: 20px; background: #333; border-radius: 50%;"></div>
+                            <div style="width: 60px; height: 10px; background: #333; border-radius: 5px;"></div>
+                        </div>
+                        <div class="mockup-card" style="background: linear-gradient(45deg, #1a1a1e, #00D1FF22);"></div>
+                        <div class="mockup-card"></div>
+                        <div class="mockup-card"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Zeper Player. Created by MD Zisan.</p>
+            <p style="font-size: 12px; margin-top: 10px;">This project is open source and hosted on GitHub.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
